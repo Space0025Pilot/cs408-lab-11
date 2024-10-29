@@ -1,4 +1,56 @@
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  border-color: #0c0fe7;
+  border-style: solid;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+/* Table styling */
+
+table {
+  width: 100%;
+  background-color: rgb(56, 185, 241);
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+th[scope="col"] {
+  border-bottom: 1px solid black;
+}
+
+th[scope="row"] {
+  border-right: 1px solid black;
+}
+
+td[scope="row"] {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(33, 162, 173);
+}
+
+form{
+  display: flex;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  
+}
+label,input {
+  padding: 1%;
+
+}
+button.s{
+  margin-left: 10px;
+}
+
+button.l{
+  margin-top: 10px;
 }
